@@ -28,6 +28,7 @@ Or, if you have [poetry][poetry] installed
 
 ```bash
 poetry install
+poetry build
 ```
 
 This will install the requests and beautifulsoup4 libraries.
