@@ -4,10 +4,10 @@ This is a simple Python web scraper that extracts the titles and URLs of the lat
 
 ## Usage
 
-To use the scraper, simply run the `'.\web_scraper\__init__.py'` script from the command line:
+To use the scraper, simply run the `'.\web_scraper\main.py'` script from the command line:
 
 ```bash
-python '.\web_scraper\__init__.py'
+python '.\web_scraper\main.py'
 ```
 
 Or, if you have [poetry][poetry] installed
