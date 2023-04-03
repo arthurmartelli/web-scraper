@@ -33,6 +33,14 @@ poetry build
 
 This will install the requests and beautifulsoup4 libraries.
 
+## Testing
+
+The testing is done with [PyTest][pytest]. To run the tests, run the command
+
+```bash
+poetry run pytest
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
@@ -40,3 +48,4 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 <!-- Link Definitions -->
 
 [poetry]: https://python-poetry.org/
+[pytest]: https://docs.pytest.org/
