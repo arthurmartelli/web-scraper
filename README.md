@@ -1,4 +1,4 @@
-# Web Scrapper
+# Web Scraper
 
 This is a simple Python web scraper that extracts the titles and URLs of the latest articles on the TechCrunch website. The scraper uses the requests library to make HTTP requests to the website and the BeautifulSoup library to parse the HTML content. The implementation looks into [TechCrunch](https://techcrunch.com).
 
