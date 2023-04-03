@@ -1,4 +1,5 @@
 {
   "python.analysis.typeCheckingMode": "strict",
-  "cSpell.words": ["beautifulsoup"]
+  "cSpell.words": ["beautifulsoup", "tablefmt", "termcolor"],
+  "python.formatting.provider": "black"
 }

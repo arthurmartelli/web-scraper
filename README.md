@@ -7,7 +7,13 @@ This is a simple Python web scraper that extracts the titles and URLs of the lat
 To use the scraper, simply run the `scraper.py` script from the command line:
 
 ```bash
-python3 scraper.py
+python '.\web_scraper\__init__.py'
+```
+
+Or, if you have [poetry][poetry] installed
+
+```bash
+poetry run main
 ```
 
 ## Installation
@@ -18,8 +24,18 @@ To install the required libraries, run the following command:
 pip install -r requirements.txt
 ```
 
+Or, if you have [poetry][poetry] installed
+
+```bash
+poetry install
+```
+
 This will install the requests and beautifulsoup4 libraries.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+<!-- Link Definitions -->
+
+[poetry]: https://python-poetry.org/
