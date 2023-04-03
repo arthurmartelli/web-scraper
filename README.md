@@ -35,7 +35,7 @@ This will install the requests and beautifulsoup4 libraries.
 
 ## Testing
 
-The testing is done with [PyTest][pytest]. To run the tests, run the command
+The testing is done with [PyTest][pytest]. To run the tests, use the command
 
 ```bash
 poetry run pytest
