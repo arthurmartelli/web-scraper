@@ -12,4 +12,4 @@ def get_response(url: str):
     """
 
     #! add error handling
-    return requests.get(url=url)
+    return requests.get(url, allow_redirects=False)
